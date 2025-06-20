@@ -1,0 +1,70 @@
+.edit-task-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+.edit-task-heading{
+    font-size: 30px;
+    font-family: "Roboto";
+}
+
+.edit-task-lable{
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.edit-task-input{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    color: #000000;
+    padding: 15px;
+    border-radius: 7px;
+    width: 280px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.option{
+    font-weight: bold;
+}
+
+.edit-task-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-task-button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    color: #000000;
+    padding: 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.success-message{
+    color: green;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.error-message{
+    color: red;
+    font-size: 20px;
+    font-family: "Roboto";
+}
