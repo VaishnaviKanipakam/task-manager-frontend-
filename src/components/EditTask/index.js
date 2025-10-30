@@ -9,6 +9,7 @@ const EditTask = () => {
     
     const [editTitle, setEditTitle] = useState(editDetails.title)
       const [editDescription, setEditDescription] = useState(editDetails.description)
+      const [editPriority, setEditPriority] = useState(editDetails.priority)
       const [editDueDate, setEditDueDate] = useState(editDetails.dueDate)
       const [editStatus, setEditStatus] = useState(editDetails.status)
       const [message, setMessage] = useState("")
