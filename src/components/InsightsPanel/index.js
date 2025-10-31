@@ -11,7 +11,7 @@ const InsightsPanel = () => {
   });
 
   const getAllInsights = async () => {
-    const url = "http://localhost:3004/get_insights";
+    const url = "https://task-manager-backend-eabz.onrender.com/get_insights";
 
     const options = {
       method: "GET",
@@ -46,7 +46,7 @@ const InsightsPanel = () => {
         </div>
         <div className="insight-card-container">
           <h1 className="insight-heading">Due in next 3 days</h1>
-          <h3 className="insight-description">{`You have ${insightsList.dueSoonCount?? 0} open tasks`}</h3>
+          <h3 className="insight-description">{`${insightsList.dueSoonCount?.[0]?.dueSoonCount ?? 0} Due in next 3 days`}</h3>
         </div>
         <div className="insight-card-container">
           <h1 className="insight-heading">Tasks Priority Count</h1>

@@ -294,7 +294,7 @@ const AddTask = () => {
   const onSubmitAddTaskForm = async (event) => {
     event.preventDefault();
     const taskDetails = { title, description, priority, dueDate, status };
-    const url = "http://localhost:3004/tasks";
+    const url = "https://task-manager-backend-eabz.onrender.com/tasks";
 
     const options = {
       method: "POST",

@@ -37,7 +37,7 @@ const TaskItem = (props) => {
     event.preventDefault();
     const editTaskDetails = { editPriority, editStatus };
 
-    const url = `http://localhost:3004/edit_tasks?task_id=${taskId}`;
+    const url = `https://task-manager-backend-eabz.onrender.com/edit_tasks?task_id=${taskId}`;
 
     const options = {
       method: "PATCH",
@@ -55,10 +55,14 @@ const TaskItem = (props) => {
   };
 
   const onDeleteTask = async () => {
-    const url = `http://localhost:3004/tasks?task_id=${taskId}`;
+    const url = `https://task-manager-backend-eabz.onrender.com/tasks?task_id=${taskId}`;
 
     const options = {
       method: "DELETE",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
     };
 
     const response = await fetch(url, options);

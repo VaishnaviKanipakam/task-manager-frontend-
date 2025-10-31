@@ -92,7 +92,7 @@ const Dashboard = () => {
     const params = new URLSearchParams();
     if (searchInput) params.append("status", searchInput);
     if (priorityFilter) params.append("priority", priorityFilter);
-    const url = `http://localhost:3004/get_tasks?${params.toString()}`;
+    const url = `https://task-manager-backend-eabz.onrender.com/get_tasks?${params.toString()}`;
 
     const options = {
       method: "GET",
