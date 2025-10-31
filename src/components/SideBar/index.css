@@ -1,0 +1,30 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  list-style-type: none;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  height: 100vh;
+  box-sizing: border-box;
+  width: 20vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+.link-item {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Roboto";
+}
+
+.side-bar-item-name {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin: 20px 0px 10px 0px;
+}

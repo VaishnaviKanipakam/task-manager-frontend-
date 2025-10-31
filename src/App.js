@@ -1,20 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./components/Home"
-import AddTask from "./components/AddTask"
-import EditTask from "./components/EditTask"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
+import AddTask from "./components/AddTask";
+import InsightsPanel from "./components/InsightsPanel";
 
-import "./App.css"
+import "./App.css";
 
 const App = () => {
-    return(
-      <BrowserRouter>
-          <Routes>
-            <Route exact path="/" element={<Home />}></Route>
-            <Route exact path="/add-task" element={<AddTask />}></Route>
-            <Route exact path="/edit-task/:id" element={<EditTask />}></Route>
-          </Routes>
-      </BrowserRouter>
-    )
-}
+  return (
+    <BrowserRouter>
+      <div></div>
+      <Routes>
+        <Route exact path="/" element={<Dashboard />}></Route>
+        <Route exact path="/add-task" element={<AddTask />}></Route>
+        <Route exact path="/insights" element={<InsightsPanel />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;

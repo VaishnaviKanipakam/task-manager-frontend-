@@ -18,7 +18,7 @@ const AddTask = () => {
   const [priority, setPriority] = useState("");
   const [errMsg, setErrMsg] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
-  const [result, setResult] = useState()
+  const [result, setResult] = useState();
 
   const renderTitleField = () => {
     return (
@@ -291,7 +291,6 @@ const AddTask = () => {
     );
   };
 
-  
   const onSubmitAddTaskForm = async (event) => {
     event.preventDefault();
     const taskDetails = { title, description, priority, dueDate, status };
@@ -307,26 +306,22 @@ const AddTask = () => {
     };
 
     const response = await fetch(url, options);
-    console.log("308AddTaskresponse", response);
     if (response.ok === true) {
       const successData = await response.json();
-      console.log("312AddtasksuccessData", successData)
       setSuccessMessage(successData);
-      setResult(true)
+      setResult(true);
       setTitle("");
       setDescription("");
       setDueDate("");
       setStatus("");
-      setPriority("")
+      setPriority("");
     } else if (response.ok === false) {
       const failData = await response.json();
-      console.log("316AddTaskfailData", failData);
       setErrMsg(failData);
-     setResult(false)
+      setResult(false);
     }
   };
 
-  console.log("327AddTask", result)
 
   return (
     <div className="add-task-container">

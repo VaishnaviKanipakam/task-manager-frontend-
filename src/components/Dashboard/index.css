@@ -1,0 +1,56 @@
+.home-container {
+  background-color: #ffffff;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  color: #000000;
+  font-family: "Roboto";
+}
+
+.search-filter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 300px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.tasks-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  width: 80vw;
+  height: 100vh;
+}
+
+.add-button-search-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #000000;
+  padding: 15px;
+  border-radius: 7px;
+  width: 280px;
+  font-weight: bold;
+}
+
+.task-item {
+  height: 80vh;
+  overflow: scroll;
+  scrollbar-width: none;
+  display: flex;
+  flex-wrap: wrap;
+}

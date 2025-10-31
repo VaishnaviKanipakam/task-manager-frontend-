@@ -1,57 +1,45 @@
-.list-item-container{
-    list-style-type: none;
-    background-color: #F0F0F0;
-    color: #000000;
-    border-radius: 7px;
-    margin: 10px;
-    font-family: "Roboto";
-    padding: 13px;
-    box-sizing: border-box;
-    width: 250px;
-    height: fit-content;
+.list-item-container {
+  list-style-type: none;
+  background-color: #f0f0f0;
+  color: #000000;
+  border-radius: 7px;
+  margin: 10px;
+  font-family: "Roboto";
+  padding: 13px;
+  box-sizing: border-box;
+  width: 250px;
+  height: fit-content;
 }
 
-.name{
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: 700;
+.name {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
-.icon{
-    color: #000000;
-    font-size: 15px;
+.icon {
+  color: #000000;
+  font-size: 15px;
 }
 
-.icon-name-content-cotainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.icon-name-content-cotainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.icon-name-cotainer{
-    display: flex;
-    align-items: center;
+.icon-name-cotainer {
+  display: flex;
+  align-items: center;
 }
 
-.hr-line{
-    width: 100%;
-    border: 1px solid #989898;
+.hr-line {
+  width: 100%;
+  border: 1px solid #989898;
 }
 
-.edit-delete-icon-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.edit-delete-icon{
-    font-size: 23px;
-    color: #000000;
-}
-
-.delete-task-button{
-    background: transparent;
-    outline: none;
-    cursor: pointer;
-    border: none;
+.edit-delete-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

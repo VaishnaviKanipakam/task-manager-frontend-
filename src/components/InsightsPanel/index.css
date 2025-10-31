@@ -1,0 +1,46 @@
+.indights-pannel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.indights-pannel-content-container {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+.insight-card-container {
+  background-color: #f0f0f0;
+  color: #000000;
+  border-radius: 7px;
+  margin: 10px;
+  font-family: "Roboto";
+  padding: 13px;
+  box-sizing: border-box;
+  width: 250px;
+  height: fit-content;
+}
+
+.insight-heading {
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.insight-description {
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+}

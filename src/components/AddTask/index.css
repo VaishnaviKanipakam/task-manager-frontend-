@@ -1,43 +1,39 @@
-.add-task-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: scroll;
-    scrollbar-width: none;
-    font-family: "Roboto";
+.add-task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: scroll;
+  scrollbar-width: none;
+  font-family: "Roboto";
 }
 
-.add-task-heading{
-    font-size: 30px;
-    font-family: "Roboto";
+.add-task-heading {
+  font-size: 30px;
+  font-family: "Roboto";
 }
 
-
-
-.add-task-button-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.add-task-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-.success-message{
-    color: green;
-    font-size: 16px;
-    font-family: "Roboto";
-    margin: 0;
-    text-align: center;
-    font-weight: bold;
+.success-message {
+  color: green;
+  font-size: 16px;
+  font-family: "Roboto";
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
 }
 
-.error-message{
-    color: red;
-    font-size: 16px;
-    font-family: "Roboto";
-    margin: 0;
-    text-align: center;
-    font-weight: bold;
+.error-message {
+  color: red;
+  font-size: 16px;
+  font-family: "Roboto";
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
 }
